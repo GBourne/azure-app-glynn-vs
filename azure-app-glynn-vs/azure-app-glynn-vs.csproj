@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_glynn_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b5c4e5c7-0d70-4e05-9c06-66657a79d1b7/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-glynn-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>283cb529-fd00-4070-ba09-0b674578d2c3</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
