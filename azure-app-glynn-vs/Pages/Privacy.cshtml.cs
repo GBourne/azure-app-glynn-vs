@@ -14,6 +14,7 @@ namespace azure_app_glynn_vs.Pages
 
         public void OnGet()
         {
+            throw new Exception("testing Insights");
         }
     }
 
